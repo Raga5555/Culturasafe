@@ -1,0 +1,10 @@
+{
+  "name": "Remix CulturaSafe",
+  "description": "Tourism and belongings-safety application with interactive map, itinerary planner, and BLE tracking for Puducherry.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
