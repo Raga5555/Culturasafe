@@ -1,0 +1,20 @@
+[project]
+name = "culturasafe-backend-python"
+version = "1.0.0"
+description = "CulturaSafe Backend FastAPI REST API - Cultural Tourism, Belongings Safety & GPS Integration"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.5.0",
+    "supabase>=2.8.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.1"
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = "test_*.py"
